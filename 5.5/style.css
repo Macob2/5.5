@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile-container {
+    width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header {
+    background-color: #00a0d1;
+    height: 13vh;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 25vh;
+    left: 55vh;
+    margin: 8vh;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-picture i {
+    font-size: 40px;
+    color: #fff;
+}
+.profile-details {
+    padding: 60px 20px 20px 20px;
+    text-align: left;
+}
+.profile-details h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+.profile-details p {
+    margin: 5px 0;
+    color: #666;
+}
+.profile-details .location {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+.profile-details .location i {
+    margin-right: 5px;
+}
+.profile-details .bio {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+.profile-details .edit-profile {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #0073b1;
+    text-decoration: none;
+}
+.profile-details .edit-profile i {
+    margin-right: 5px;
+}
+.ico{
+    width: 12vh;
+    height: 12vh;
+}
